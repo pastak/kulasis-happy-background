@@ -1,0 +1,17 @@
+{
+    "name" : "kulasis-happy-background",
+    "version": "0.5",
+    "background": {
+        "scripts": ["background/eventPage.js"],
+        "persistent": false
+    },
+    "options_page": "option/option.html",
+    "content_scripts": [
+        {
+        "matches": ["https://student.iimc.kyoto-u.ac.jp/iwproxy/KULASIS/student/la/*"],
+        "css": ["content/content.css"],
+        "js": ["content/content.js"]
+    }
+    ],
+    "manifest_version": 2
+}
