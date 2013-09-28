@@ -1,6 +1,8 @@
 # これはなに
 
-京都大学の教務管理システムKULASISに背景画像を設定するための Google Chrome 拡張です。
+京都大学の教務管理システムKULASISに背景画像を設定するための Google Chrome 拡張です。  
+Chrome Web Store からもダウンロード出来ます。  
+[https://chrome.google.com/webstore/detail/kulasis-happy-background/fgplfclebdkbigdpleobaoedlkkclidn](https://chrome.google.com/webstore/detail/kulasis-happy-background/fgplfclebdkbigdpleobaoedlkkclidn)
 
 # 例
 

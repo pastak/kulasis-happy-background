@@ -17,8 +17,8 @@ $(function() {
         $imagePositionSelect,
         $registerBtn,
         $deleteBtn;
-        $registerBtn = $('<input type="submit" value="register">')
-        .on('click', function() {
+        $registerBtn = $('<input type="submit" value="register">');
+        $imageSetForm = $('<form>').on('submit', function() {
             var data = {
                 path  : $imagePathInput.prop('value'),
                 title : $imageTitleInput.prop('value'),
@@ -32,18 +32,16 @@ $(function() {
                 $imageSetForm.append($deleteBtn);
                 makeImageRow((index+1),{})
             }
-        });
-        $imageSetForm = $('<form>').on('submit',function(){
             return false;
-        });
-        $imagePathInput = $('<input type="text" class="pathInput">').prop(
+        }); 
+        $imagePathInput = $('<input type="text" class="pathInput" required>').prop(
             'value',
             data.path || ''
         );
         $deleteBtn = $('<input type="button" value="delete">')
         .on('click', function() {
             if(confirm('Will you delete it?')){
-                imagePathes.splice(index, 1);
+                imageData.splice(index, 1);
                 updateLS();
                 $tableRow.remove();
             }
@@ -52,7 +50,7 @@ $(function() {
             'src',
             data.path || './dummy.png'
         );
-        $imageTitleInput = $('<input type="text" class="imageTitle" />').prop('value',data.title);
+        $imageTitleInput = $('<input type="text" class="imageTitle" />').prop('value',(data.title || ('Untitled-'+index)));
         $imagePositionSelect = $('<select><option value="1">左上</option><option value="2">右上</option><option value="3">左下</option><option value="4">右下</option></select>');
         $imagePositionSelect.children(('option:nth-child('+(data.pos || 1)+')')).attr('selected',true);
         $imageSetForm.append(
