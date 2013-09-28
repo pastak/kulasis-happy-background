@@ -18,7 +18,8 @@ chrome.runtime.sendMessage({data : 'getImageData'},function(response){
                 position = 'right bottom';
             break;
         }
-        document.body.style.background = ("url('"+ imageData[number].path +"') no-repeat fixed " + position);
+        var repeat = imageData[number].repeat ? '' : 'no-repeat';
+        document.body.style.background = ("url('"+ imageData[number].path +"') "+repeat +" fixed " + position);
     }
     var title,
         optionElm,
