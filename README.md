@@ -4,7 +4,11 @@
 Chrome Web Store からもダウンロード出来ます。  
 [https://chrome.google.com/webstore/detail/kulasis-happy-background/fgplfclebdkbigdpleobaoedlkkclidn](https://chrome.google.com/webstore/detail/kulasis-happy-background/fgplfclebdkbigdpleobaoedlkkclidn)
 
-# 例
+# Before
+
+![過去のお話](http://gyazo.com/10496771b0ec683a3e2596149c012df3)
+
+# After
 
 ![良い例](http://gyazo.com/9a152c5422bedeb74b97e721e700e546.png)
 
