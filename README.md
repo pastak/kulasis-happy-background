@@ -6,7 +6,7 @@ Chrome Web Store からもダウンロード出来ます。
 
 # Before
 
-![過去のお話](http://gyazo.com/10496771b0ec683a3e2596149c012df3)
+![過去のお話](http://gyazo.com/10496771b0ec683a3e2596149c012df3.png)
 
 # After
 
