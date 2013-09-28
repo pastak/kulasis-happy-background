@@ -1,9 +1,9 @@
 chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
     console.log(request);
-    if (request.data == "getImagePath"){
+    if (request.data == "getImageData"){
         sendResponse({
-            imagePathes: localStorage.getItem('backgroundImagePathes'||null)
+            imageData: localStorage.getItem('backgroundImageData'||null)
         }
         );
     }
