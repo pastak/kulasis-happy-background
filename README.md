@@ -14,7 +14,11 @@ Chrome Web Store からもダウンロード出来ます。
 
 ![最高な例](http://gyazo.com/ed072bac65d0f9978ee0b726212bcead.png)
 
+![金髪](http://gyazo.com/0243630f63ad388a10204290c433a5b5.png)
+
 ![インターネットらしさのある例](http://gyazo.com/8d0d88a534921cf5177e40ceea5e378d.png)
+
+![動くのも出来ます](http://gifzo.net/yBlReoIb2X.gif)
 
 # 使い方
 
