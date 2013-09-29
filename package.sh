@@ -1,1 +1,1 @@
-zip  -r ./kulasis-happy-background.zip ./* -x ./kulasis-happy-background.zip ./.git\* ./README.md
+zip  -r ./kulasis-happy-background.zip ./* -x ./kulasis-happy-background.zip ./.git\* ./README.md ./package.sh
