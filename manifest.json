@@ -8,7 +8,7 @@
     "options_page": "option/option.html",
     "content_scripts": [
         {
-        "matches": ["https://student.iimc.kyoto-u.ac.jp/iwproxy/KULASIS/student/*"],
+        "matches": ["https://student.iimc.kyoto-u.ac.jp/iwproxy/KULASIS/student/*","https://www.k.kyoto-u.ac.jp/teacher/*"],
         "css": ["content/content.css"],
         "js": ["content/content.js"]
     }
