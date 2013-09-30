@@ -1,6 +1,6 @@
 {
     "name" : "kulasis-happy-background",
-    "version": "0.5.9",
+    "version": "0.6.0",
     "background": {
         "scripts": ["background/eventPage.js"],
         "persistent": false
