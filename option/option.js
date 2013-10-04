@@ -51,7 +51,7 @@ $(function() {
         });
         $shareBtn = $('<input type="button" value="share">')
         .on('click', function() {
-            var url = ('https://twitter.com/intent/tweet?hashtags=kulasis_happy_background&text='+encodeURIComponent('この画像をKULASISの背景に設定しました！！！ '+encodeURIComponent($imagePathInput.prop('value')))+'&url='+encodeURIComponent('http://pastak.hatenablog.com/entry/2013/09/29/171215'));
+            var url = ('https://twitter.com/intent/tweet?hashtags=kulasis_happy_background&text='+encodeURIComponent('この画像をKULASISの背景に設定しました！！！ ')+$imagePathInput.prop('value')+'&url='+encodeURIComponent('http://pastak.hatenablog.com/entry/2013/09/29/171215'));
             window.open(url);
         });
         $imagePreview = $('<img class="preview">').prop(
