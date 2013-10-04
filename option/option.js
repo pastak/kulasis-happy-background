@@ -17,7 +17,8 @@ $(function() {
         $imagePositionSelect,
         $isRepeatCheck,
         $registerBtn,
-        $deleteBtn;
+        $deleteBtn,
+        $shareBtn;
         $registerBtn = $('<input type="submit" value="register">');
         $imageSetForm = $('<form>').on('submit', function() {
             var data = {
@@ -31,7 +32,7 @@ $(function() {
             updateLS();
             if($imagePathInput.is('.empty')){
                 $imagePathInput.removeClass('empty');
-                $imageSetForm.append($deleteBtn);
+                $imageSetForm.append($deleteBtn).append($shareBtn);
                 makeImageRow((index+1),{})
             }
             return false;
@@ -47,6 +48,11 @@ $(function() {
                 updateLS();
                 $tableRow.remove();
             }
+        });
+        $shareBtn = $('<input type="button" value="share">')
+        .on('click', function() {
+            var url = ('https://twitter.com/intent/tweet?hashtags=kulasis_happy_background&text='+encodeURIComponent('この画像をKULASISの背景に設定しました！！！ '+encodeURIComponent($imagePathInput.prop('value')))+'&url='+encodeURIComponent('http://pastak.hatenablog.com/entry/2013/09/29/171215'));
+            window.open(url);
         });
         $imagePreview = $('<img class="preview">').prop(
             'src',
@@ -70,7 +76,7 @@ $(function() {
         .append($registerBtn)
         $imageSet = $('<td>').append($imageSetForm);
         if(data.path){
-            $imageSetForm.append($deleteBtn);
+            $imageSetForm.append($deleteBtn).append($shareBtn);
             $registerBtn.prop('value', 'update');
         }else{
             $imagePathInput.addClass('empty');
