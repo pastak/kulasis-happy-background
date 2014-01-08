@@ -4,6 +4,10 @@
 Chrome Web Store からもダウンロード出来ます。  
 [https://chrome.google.com/webstore/detail/kulasis-happy-background/fgplfclebdkbigdpleobaoedlkkclidn](https://chrome.google.com/webstore/detail/kulasis-happy-background/fgplfclebdkbigdpleobaoedlkkclidn)
 
+## Firefoxの人
+
+[https://github.com/pastak/kulasis-happy-background-for-firefox](https://github.com/pastak/kulasis-happy-background-for-firefox)
+
 # Before
 
 ![過去のお話](http://gyazo.com/10496771b0ec683a3e2596149c012df3.png)
