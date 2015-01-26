@@ -1,6 +1,6 @@
 {
     "name" : "kulasis-happy-background",
-    "version": "0.6.2",
+    "version": "0.6.3",
     "background": {
         "scripts": ["background/eventPage.js"],
         "persistent": false
@@ -8,7 +8,7 @@
     "options_page": "option/option.html",
     "content_scripts": [
         {
-        "matches": ["https://student.iimc.kyoto-u.ac.jp/iwproxy/KULASIS/student/*","https://www.k.kyoto-u.ac.jp/teacher/*"],
+        "matches": ["https://www.k.kyoto-u.ac.jp/teacher/*","https://www.k.kyoto-u.ac.jp/teacher/*"],
         "exclude_matches": ["*://*/*/report_attachment?no=*"],
         "css": ["content/content.css"],
         "js": ["content/content.js"]
