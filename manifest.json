@@ -1,6 +1,6 @@
 {
     "name" : "kulasis-happy-background",
-    "version": "0.6.4",
+    "version": "0.6.5",
     "background": {
         "scripts": ["background/eventPage.js"],
         "persistent": false
@@ -17,7 +17,7 @@
     "icons": {
         "16":  "img/icon16.png",
         "48":  "img/icon48.png",
-        "128": "img/icon.png" 
+        "128": "img/icon.png"
     },
     "manifest_version": 2
 }
